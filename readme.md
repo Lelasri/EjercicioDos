@@ -13,17 +13,18 @@
 
 3. **¿Ejecutas Python desde la terminal?** Con la salida de `which` hazle un `ls -la` a esa ruta. Aquí me interesa saber si ejecutas Jupyter desde la terminal, desde la aplicación gráfica de Anaconda o cómo. 
 
-Cuando hago `which python` y `ls -la` el resultado que obtengo relativo a Python es el siguiente:
+- Cuando hago `which python` y `ls -la` el resultado que obtengo relativo a Python es el siguiente:
 
     drwx------+ 1 Lenovo Ninguno       0 Nov 30 20:44  .ipython
     drwx------+ 1 Lenovo Ninguno       0 Nov 30 20:38  .jupyter
 
 
-No suelo ejecutar Python desde la terminal. Utilizo Python con Anaconda Navigator y Jupyter. Tampoco ejecuto Jupyter desde la terminal, sino desde la aplicación gráfica de Anaconda. 
+- No suelo ejecutar Python desde la terminal. Utilizo Python con Anaconda Navigator y Jupyter. Tampoco ejecuto Jupyter desde la terminal, sino desde la aplicación gráfica de Anaconda. 
 
-4. **¿Usas Collab? ¿Solo collab o como una aplicación de terceros más? **
-Creo que no. 
+4. **¿Usas Collab? ¿Solo collab o como una aplicación de terceros más?**
+
+- Creo que no. 
 
 5. **¿Sabes que es pip?** Puedes acompañarlo de `pip --version` y `pip3 --version`, `which pip` y `which pip3`. Por cierto que en mi GNU/Linux me dice que ``which`está depreciado, que use `command -v``, es decir, `command -v pip`, etc. 6. ¿Usas pip, condas u otro método?
 
-Pip es un gestor de paquetes de Python. Lo utilizamos en clase del profesor Martín Nadal para instalar folium, una librería de mapas interactivos, de la siguiente forma: `!pip install folium`. Solo he utilizado pip a través de la aplicación gráfica de Anaconda. 
+- Pip es un gestor de paquetes de Python. Lo utilizamos en clase del profesor Martín Nadal para instalar folium, una librería de mapas interactivos, de la siguiente forma: `!pip install folium`. Solo he utilizado pip a través de la aplicación gráfica de Anaconda. 
